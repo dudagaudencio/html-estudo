@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1682685796186-1bb4a5655653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+
+    background-repeat: no-repeat;
+    background-size: cover ;
+    font-family: 'EB Garamond', serif;
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: rgba(122, 54, 22, 0.384);
+    padding: 40px 24px;
+    border-radius: 10px;
+    padding: center;
+    width: 400px;
+
+}
+main{
+    width: 300px;
+    position: relative;
+}
+input{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 10px;
+}
+h1{
+    text-align: left;
+    margin-bottom: -60px;
+
+}
+.whatsapp{
+    scroll-padding-left: 10px;
+    right: 10px;
+    top: 100px;
+    padding-left: 330px;
+
+
+
+}
+.btn-personalizado{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+    height: 40px;
+    background-color: rgba(173, 255, 162, 0.699);
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    font-family: Impact;
+    font-size: larger;
+
+    
+
+}
